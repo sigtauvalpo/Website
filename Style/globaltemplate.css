@@ -1,16 +1,7 @@
 html,body  {
+background-color: #bfbfbf;
 overflow-x: hidden; 
 height: 100%;
-}
-.backgroundimg{
-	background-image: url("ckgrounBad.jpg");
-    /* Full height */
-    height: 100%; 
-
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 h1 {
 font-size: 2.4vh;
