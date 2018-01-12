@@ -4,7 +4,7 @@ height: 100%;
 }
 .bg{
       /* The image used */
-    background-image: url("/Images/Background.jpg");
+    background-image: url("http://naterbug25.github.io/Lance/Images/Background.jpg");
 
     /* Full height */
     height: 100%; 
