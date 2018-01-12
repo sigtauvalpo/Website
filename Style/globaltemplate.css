@@ -1,7 +1,8 @@
 html,body  {
 overflow-x: hidden; 
-
-  
+height: 100%; 
+}
+.bg{
       /* The image used */
     background-image: url("/Images/Background.jpg");
 
@@ -12,7 +13,10 @@ overflow-x: hidden;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
+
 }
+
 h1 {
 font-size: 2.4vh;
 text-align: center;
