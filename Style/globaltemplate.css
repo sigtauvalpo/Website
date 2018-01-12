@@ -3,7 +3,7 @@ overflow-x: hidden;
 
   
       /* The image used */
-    background-image: url("Background.jpg");
+    background-image: url("/Images/Background.jpg");
 
     /* Full height */
     height: 100%; 
