@@ -114,7 +114,37 @@ padding: 0.5vh;
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 1vh;
-color:#000000;
+color:#ffffff;
+}
+h6 {
+font-family: "Brush Script MT", "Brush Script Std", cursive;
+font-size: 6.0vh;
+font-style: italic;
+font-variant: normal;
+text-align: center;
+font-weight: bold;
+border: 1px ;
+margin: 3px;
+padding: 0.5vh;	
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1vh;
+color:#f2f2f2;
+}
+h7 {
+font-family: "Brush Script MT", "Brush Script Std", cursive;
+font-size: 6.0vh;
+font-style: italic;
+font-variant: normal;
+text-align: center;
+font-weight: bold;
+border: 1px ;
+margin: 3px;
+padding: 0.5vh;	
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 1vh;
+color:#d9d9d9;
 }
 h5.HeaderMobile {
 font-size: 2.4vh;
