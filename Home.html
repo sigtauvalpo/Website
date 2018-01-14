@@ -12,8 +12,6 @@
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 		 
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
          <script type="text/javascript">
             <!--
@@ -190,11 +188,11 @@
 		     
 			<div>
 				
-				<iframe class="fade" src="https://docs.google.com/document/d/e/2PACX-1vSF0VAzVsB13xC8nG0UhBuveZWVcHqYQSep9XDN22Z-Kk--rKqh6FHq6qQLrhnm-JXqDIQX7iWjnueA/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-				<iframe class="fade" src="https://docs.google.com/document/d/e/2PACX-1vRmJbH3VG55Ath2P4JCYwhdJ7vyNbNQiPvhnrM1AElqaQglrqqgJKqk5YKlBajLlp8sXWrSQOrfc_vt/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-				<iframe class="fade" src="https://docs.google.com/document/d/e/2PACX-1vSIP8zBgzG-SnT8rmAiB9dHGHih6nkXEq3BNtevK46N9X4YosaAIiQnSbPGpLQ1Mw7HNANqSlX6OHLn/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-				<iframe class="fade" src="https://docs.google.com/document/d/e/2PACX-1vREkYewH_Q0dcv2d0ebP3SSNTqdLtBlTb812bMzFGBkO6CD2ixTwDiDT_K_VduoYBLdgJt13nAk9IFU/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-				<iframe class="fade" src="https://docs.google.com/document/d/e/2PACX-1vSusku5xfo6h_akfEPRiYpk5CYuo4poIY2zE_cVw5L0f-D2StWl1Bz5-G5Ak2sEi-jMCB_YafBcMqim/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
+				<iframe  src="https://docs.google.com/document/d/e/2PACX-1vSF0VAzVsB13xC8nG0UhBuveZWVcHqYQSep9XDN22Z-Kk--rKqh6FHq6qQLrhnm-JXqDIQX7iWjnueA/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>	
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vRmJbH3VG55Ath2P4JCYwhdJ7vyNbNQiPvhnrM1AElqaQglrqqgJKqk5YKlBajLlp8sXWrSQOrfc_vt/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vSIP8zBgzG-SnT8rmAiB9dHGHih6nkXEq3BNtevK46N9X4YosaAIiQnSbPGpLQ1Mw7HNANqSlX6OHLn/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vREkYewH_Q0dcv2d0ebP3SSNTqdLtBlTb812bMzFGBkO6CD2ixTwDiDT_K_VduoYBLdgJt13nAk9IFU/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
+				<iframe src="https://docs.google.com/document/d/e/2PACX-1vSusku5xfo6h_akfEPRiYpk5CYuo4poIY2zE_cVw5L0f-D2StWl1Bz5-G5Ak2sEi-jMCB_YafBcMqim/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
             </div>		
 				
 		
@@ -237,29 +235,7 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
-<script>
-$(window).on("load",function() {
-  function fade(pageLoad) {
-    var windowTop=$(window).scrollTop(), windowBottom=windowTop+$(window).innerHeight();
-    var min=0.3, max=0.7, threshold=0.01;
-    
-    $(".fade").each(function() {
-      /* Check the location of each desired element */
-      var objectHeight=$(this).outerHeight(), objectTop=$(this).offset().top, objectBottom=$(this).offset().top+objectHeight;
-      
-      /* Fade element in/out based on its visible percentage */
-      if (objectTop < windowTop) {
-        if (objectBottom > windowTop) {$(this).fadeTo(0,min+((max-min)*((objectBottom-windowTop)/objectHeight)));}
-        else if ($(this).css("opacity")>=min+threshold || pageLoad) {$(this).fadeTo(0,min);}
-      } else if (objectBottom > windowBottom) {
-        if (objectTop < windowBottom) {$(this).fadeTo(0,min+((max-min)*((windowBottom-objectTop)/objectHeight)));}
-        else if ($(this).css("opacity")>=min+threshold || pageLoad) {$(this).fadeTo(0,min);}
-      } else if ($(this).css("opacity")<=max-threshold || pageLoad) {$(this).fadeTo(0,max);}
-    });
-  } fade(true); //fade elements on page-load
-  $(window).scroll(function(){fade(false);}); //fade elements on scroll
-});
-</script>
+
 
       </body>
    </html>
