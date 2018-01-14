@@ -26,6 +26,10 @@ background-size: cover;
 margin-top: -1vh;
 
 }
+.fade {
+  opacity: 1;
+}
+
 .Twitter{
 display: block;
 border: 1px ;
@@ -102,22 +106,8 @@ font-size: 2.4vh;
 font-weight: bold;
 }
 h5 {
-font-family: "Brush Script MT", "Brush Script Std", cursive;
-font-size: 6.0vh;
-font-style: italic;
-font-variant: normal;
-text-align: center;
-font-weight: bold;
-border: 1px ;
-margin: 3px;
-padding: 0.5vh;	
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 1vh;
-color:#ffffff;
-}
-h6 {
-font-family: "Brush Script MT", "Brush Script Std", cursive;
+/*font-family: "Brush Script MT", "Brush Script Std", cursive;*/
+
 font-size: 6.0vh;
 font-style: italic;
 font-variant: normal;
@@ -125,27 +115,13 @@ text-align: center;
 font-weight: 400;
 border: 1px ;
 margin: 3px;
-padding: 0.5vh;	
+padding: 1vh;	
 margin-left: auto;
 margin-right: auto;
 margin-bottom: 1vh;
 color:#f2f2f2;
 }
-h7 {
-font-family: "Brush Script MT", "Brush Script Std", cursive;
-font-size: 6.0vh;
-font-style: italic;
-font-variant: normal;
-text-align: center;
-font-weight: bold;
-border: 1px ;
-margin: 3px;
-padding: 0.5vh;	
-margin-left: auto;
-margin-right: auto;
-margin-bottom: 1vh;
-color:#d9d9d9;
-}
+
 h5.HeaderMobile {
 font-size: 2.4vh;
 text-align: center;
@@ -395,6 +371,20 @@ width: 13%;
 height: 50px;
 overflow:hidden;
 }
+button.launch_current {
+background-color:#b3b3b3;
+border:#3b3f44;
+font-size: 2.2vh;
+width: 13%;
+height: 50px;
+overflow:hidden;
+  -moz-border-radius: 12px;
+  -webkit-border-radius: 12px;
+  border-radius: 12px;
+}
+
+
+
 button:focus {outline:0;}
 .center {
 padding: 5% 0;
