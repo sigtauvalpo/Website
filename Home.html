@@ -11,8 +11,10 @@
          <meta name="author" content="Nathan Huber, Nate Huber">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
          <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
-         <script type="text/javascript">
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>  
+
+		 
+       <!--  <script type="text/javascript">
             <!--
             if (screen.width <= 800) {
                
@@ -24,8 +26,11 @@
                   $(".HomeImg").removeClass("HomeImg");  
               });
                                      }
-            //-->
-         </script>
+            
+         </script> -->
+		 
+		 
+		 
          <!-- Latest compiled and minified CSS -->
          <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
          <!-- jQuery library -->
@@ -35,7 +40,8 @@
          <link rel="stylesheet" type="text/css" href="jsfiddle.css">
          <link rel="stylesheet" type="text/css" href="Style/globaltemplate.css">
          <link rel="stylesheet" type="text/css" href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
-         <script type="text/javascript">
+		 
+       <!--  <script type="text/javascript">
             if (screen.width <= 800) {              // Mobile Device
               $(document).ready(function(){
                   $("h1").addClass("HeaderMobile");             //Resize Titles
@@ -51,9 +57,10 @@
                   $(".ButtonHeader").removeClass("ButtonHeader");  
                   
               });
-            
             }
-         </script>
+         </script>-->
+		 
+		 
          <script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
@@ -64,7 +71,7 @@
             }
             // Close the dropdown if the user clicks outside of it
             window.onclick = function(event) {
-              if (!event.target.matches('.MobileMenuMobile')) {
+              if (!event.target.matches('.MobileMenu')) {
                 var dropdowns = document.getElementsByClassName("dropdown-content");
                 var i;
                 for (i = 0; i < dropdowns.length; i++) {
@@ -82,13 +89,15 @@
       <body>
          <div class="bg" id="container">
 			<!-- Top Heading -->
-            <h5>&Sigma; &Tau; &Gamma; Sigma Tau Gamma: Beta Lambda  </h5> <!--<img src="http://naterbug25.github.io/Lance/Images/National_Crest.jpg" alt ="Crest" align ="middle" height="75vh"> -->
-            <div  id="left"> </div>		<!-- Empty Space-->
+
+			
+			
+			<div  id="left"> </div>		<!-- Empty Space-->
             <div  id="right"> </div>	<!-- Empty Space-->
             <div  id="center">
-				<!-- Mobile Menu Buttons-->
-               <div class="HeaderContainer" >
-                  <div class="dropdown">
+            <h5>&Sigma; &Tau; &Gamma; Sigma Tau Gamma: Beta Lambda  </h5> <!--<img src="http://naterbug25.github.io/Lance/Images/National_Crest.jpg" alt ="Crest" align ="middle" height="75vh"> -->
+			
+                 <div class="MobileHeaderContainer">
                      <img class="MobileMenu" src="http://naterbug25.github.io/Lance/Images/Menu_Drop_Down_Button.jpg" alt="Error Image Not Found" tabindex="1" onclick="DropDownMenu()" id="MobileIcon" >
                      <div id="myDropdown" class="dropdown-content">
                         <a href="http://naterbug25.github.io/NateHuber/Nathan Huber Home">Home</a>
@@ -98,7 +107,9 @@
                         <a href="http://naterbug25.github.io/NateHuber/Nathan Huber Contact Me">Contact Us</a>
                      </div>
                   </div>
-               </div>
+               
+
+              
                <!-- Header Buttons-->
                <div class="Header_Content">
                   <header>
@@ -114,7 +125,7 @@
                </div>
             </div>
             <div  id="left"> </div>		<!-- Empty Space -->
-            <div class="Right_Content" id="right">			<!-- Paypal & Twitter -->
+            <div id="right" class="Right_Content"  >			<!-- Paypal & Twitter -->
 				<!-- Paypal -->
                <div class="Paypal ">
                   <h1>Alumni Dues</h1>
@@ -141,13 +152,16 @@
                   </div>
                </div>
 			   <!-- Twitter -->
-               <a class="twitter-timeline tw-align-center" href="https://twitter.com/SigmaTauGamma?ref_src=twsrc%5Etfw"
+			   <div class = "Twitter">
+               <a class="twitter-timeline tw-align-center Twitter" href="https://twitter.com/SigmaTauGamma?ref_src=twsrc%5Etfw"
                   data-width="80%"
                   data-height="50vh"
                   >Tweets by SigmaTauGamma</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-            </div>
+				</div>
+			</div>
 			<!-- Image Carousel -->
-            <div class="Center_Content"id ="center" >
+            <div id ="center" class="Center_Content" >
+				  
                <div class="w3-content w3-display-container Scroll_Img">
                   <img class="mySlides" src="http://naterbug25.github.io/Lance/Images/ValpoHouse_2_1.PNG" style="max-width:100%">
                   <img class="mySlides" src="http://naterbug25.github.io/Lance/Images/People_1.PNG" style="width:100%">				
