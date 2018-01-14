@@ -104,7 +104,6 @@ font-weight: bold;
 }
 h5 {
 /*font-family: "Brush Script MT", "Brush Script Std", cursive;*/
-
 font-size: 6.0vh;
 font-style: italic;
 font-variant: normal;
@@ -345,6 +344,8 @@ margin-bottom: 1vh
 
 #footer
 {
+border-top-style: solid;
+border-width: .2vh;
 font-size: 1.6vh;
 color: 000000;
 background-color: #CCCCCC;
@@ -411,6 +412,11 @@ padding: 5% 0;
 }
 .show {display:block;}
 
+@media screen and (max-width: 531px) {
+    .container { display: flex; flex-flow: column; }
+    .Center_Content { order: 1; }
+    .Right_Content { order: 2;  }
+}
 .ContactMe{
  width:40%;
 }
