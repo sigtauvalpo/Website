@@ -7,50 +7,57 @@
 	vertical-align: baseline;
 	background: transparent;
 }
-#left{
-	float:left;
-	width:20%;
+
+#left {
+	float: left;
+	width: 20%;
 }
-#center{
+
+#center {
 	margin: auto;
-	width:60%;
+	width: 60%;
 }
-#right{
-	float:right;
-	width:20%;
+
+#right {
+	float: right;
+	width: 20%;
 }
-html,body {
+
+html,
+body {
 	overflow-x: hidden;
 	height: 100%;
 }
-.bg{
+
+.bg {
 	background-image: url("http://naterbug25.github.io/Lance/Images/Background.jpg");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	height: auto;
-	min-height:100%;
+	min-height: 100%;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: -1vh;
 	z-index: -2;
 }
-.Center_Content{
-    padding-bottom: 20px;
-min-height:800px;
-	
+
+.Center_Content {
+	padding-bottom: 20px;
+	min-height: 800px;
 }
 
-.Twitter{
+.Twitter {
 	display: block;
-	border: 1px ;
+	border: 1px;
 	margin: 1px;
 	padding: 1px;
 	margin-left: auto;
 	margin-right: auto;
 }
-.Paypal{
+
+.Paypal {
 	display: block;
 	background-color: #CCCCCC;
 	clear: left;
@@ -62,7 +69,8 @@ min-height:800px;
 	margin-bottom: 1vh;
 	max-width: 80%;
 }
-.Paypal_Not_Home{
+
+.Paypal_Not_Home {
 	display: block;
 	background-color: #CCCCCC;
 	clear: left;
@@ -74,6 +82,7 @@ min-height:800px;
 	margin-bottom: 1vh;
 	max-width: 80%;
 }
+
 header {
 	min-height: 3vh;
 	color: white;
@@ -86,34 +95,37 @@ header {
 	border-radius: 12px;
 	z-index: -1;
 }
+
 h1 {
 	font-size: 2.4vh;
 	text-align: center;
 	font-weight: bold;
-	border: 1px ;
+	border: 1px;
 	margin: 1px;
 	padding: 1px;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 h2 {
 	text-align: middle;
 	font-size: 2.4vh;
 	font-weight: bold;
 	width: 75%;
-	border: 1px ;
+	border: 1px;
 	margin: 1px;
 	padding: 1px;
 	overflow: auto;
 	margin-left: auto;
 	margin-right: auto;
 }
+
 h3 {
 	text-align: left;
 	font-size: 2.4vh;
 	font-weight: bold;
-	border: 1px ;
-	text-align:left;
+	border: 1px;
+	text-align: left;
 	margin: 1px;
 	padding: 1px;
 	width: 75%;
@@ -122,11 +134,13 @@ h3 {
 	margin-left: auto;
 	margin-right: auto;
 }
+
 h4 {
 	text-align: left;
 	font-size: 2.4vh;
 	font-weight: bold;
 }
+
 h5 {
 	/*font-family: "Brush Script MT", "Brush Script Std", cursive;
 	*/
@@ -135,17 +149,18 @@ h5 {
 	font-variant: normal;
 	text-align: center;
 	font-weight: 400;
-	border: 1px ;
+	border: 1px;
 	margin: 3px;
 	padding: 1vh;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 1vh;
-	color:#f2f2f2;
+	color: #f2f2f2;
 }
-iframe.home_page{
-	display:block;
-	overflow:hidden;
+
+iframe.home_page {
+	display: block;
+	overflow: hidden;
 	width: 90%;
 	height: 10%;
 	margin-left: auto;
@@ -155,9 +170,10 @@ iframe.home_page{
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 }
-iframe.doc_page{
-	display:block;
-	overflow:hidden;
+
+iframe.doc_page {
+	display: block;
+	overflow: hidden;
 	width: 90%;
 	height: -webkit-fill-available;
 	margin-left: 5%;
@@ -167,17 +183,19 @@ iframe.doc_page{
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
-
 }
-div.MobileHeaderContainer{
+
+div.MobileHeaderContainer {
 	display: none;
 }
+
 div.container {
 	width: 100%;
 	height: auto;
 	border: 0px;
 	display: inline-block;
 }
+
 div.centerimage {
 	float: middle;
 	max-width: 300px;
@@ -186,19 +204,22 @@ div.centerimage {
 	margin-left: auto;
 	margin-right: auto;
 }
-div.Project{
+
+div.Project {
 	float: middle;
 	max-width: 100%;
 	padding: 10px;
 	margin-left: 15%;
 	margin-right: 15%;
 }
-.Scroll_Img{
+
+.Scroll_Img {
 	max-width: 35%;
 	margin-top: 1vh;
 	margin-bottom: 1vh
 }
-.ButtonHeader{
+
+.ButtonHeader {
 	min-height: 3vh;
 	color: white;
 	background-color: #CCCCCC;
@@ -209,50 +230,94 @@ div.Project{
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 }
+
 button.launch {
-	background-color:#CCCCCC;
-	border:#3b3f44;
+	background-color: #CCCCCC;
+	border: #3b3f44;
 	font-size: 2.2vh;
 	width: 18%;
 	height: 50px;
-	overflow:hidden;
+	overflow: hidden;
 }
+
 button.launch_current {
-	background-color:#b3b3b3;
-	border:#3b3f44;
+	background-color: #b3b3b3;
+	border: #3b3f44;
 	font-size: 2.2vh;
 	width: 18%;
 	height: 50px;
-	overflow:hidden;
+	overflow: hidden;
 	-moz-border-radius: 12px;
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 }
-.Contact_Us{
-	width:40%;
-	background-color:#CCCCCC;
+
+.Contact_Us {
+	background-color: #CCCCCC;
+	-moz-border-radius: 12px;
+	-webkit-border-radius: 12px;
+	border-radius: 12px;
+	margin-top: 1vh;
+	margin-bottom: 1vh;
+	margin-left: 1vh;
+	margin-right: 1vh;
+	padding: 1vh;
 }
 
+.Contact_Us_Text {
+	width: 50%;
+	font: normal normal bold 19px/1.4em 'Open Sans', sans-serif;
+	background-color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: .2vh;
+	margin-bottom: .2vh;
+	display: inline-block;
+}
+
+.Contact_Us_Send {
+	width: 20%;
+	font: normal normal bold 19px/1.4em 'Open Sans', sans-serif;
+	background-color: #FFFFFF;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	margin-top: .2vh;
+	margin-bottom: .2vh;
+	display: block;
+}
+
+iframe.map {
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 450px;
+	width: 90%;
+	display: block;
+}
+
+
 /* If Mobile Display load this*/
+
 @media screen and (max-width: 800px) {
-	#left{
-		margin:0;
-		width:100%;
+	#left {
+		margin: 0;
+		width: 100%;
 	}
-	#center{
-		margin:0 ;
-		width:100%;
+	#center {
+		margin: 0;
+		width: 100%;
 	}
-	#right{
-		margin:0;
-		width:100%;
+	#right {
+		margin: 0;
+		width: 100%;
 	}
-	.Twitter{
+	.Twitter {
 		display: none;
 	}
-	.Paypal{
-		display:block;
-		overflow:hidden;
+	.Paypal {
+		display: block;
+		overflow: hidden;
 		width: 90%;
 		height: 10%;
 		margin-left: auto;
@@ -262,17 +327,17 @@ button.launch_current {
 		-webkit-border-radius: 12px;
 		border-radius: 12px;
 	}
-	.Paypal_Not_Home{
+	.Paypal_Not_Home {
 		display: none;
 	}
-	.ButtonHeader{
+	.ButtonHeader {
 		display: none;
 	}
 	h1.HeaderMobile {
 		font-size: 2.4vh;
 		text-align: center;
 		font-weight: bold;
-		border: 1px ;
+		border: 1px;
 		margin: 1px;
 		padding: 1px;
 		margin-left: auto;
@@ -287,20 +352,20 @@ button.launch_current {
 		font-variant: normal;
 		text-align: left;
 		font-weight: 400;
-		border: 1px ;
+		border: 1px;
 		margin-top: 2vh;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: 1vh;
-		color:#f2f2f2;
+		color: #f2f2f2;
 		float: left;
 		display: inline-block;
-		max-width:70%;
+		max-width: 70%;
 	}
 	p.introMobile {
 		font-size: 2.1vh;
-		border: 1px ;
-		text-align:left;
+		border: 1px;
+		text-align: left;
 		margin: 1px;
 		padding: 1px;
 		width: 95%;
@@ -309,11 +374,11 @@ button.launch_current {
 		margin-left: auto;
 		margin-right: auto;
 	}
-	.Scroll_Img{
-		display:none;
+	.Scroll_Img {
+		display: none;
 	}
-	img.MobileMenu{
-		height:7vh;
+	img.MobileMenu {
+		height: 7vh;
 		-webkit-transition-duration: .3s;
 		-moz-transition-duration: .3s;
 		-o-transition-duration: .3s;
@@ -324,7 +389,7 @@ button.launch_current {
 		transition-property: transform;
 		display: inline-block;
 		margin-top: 3vh;
-		margin-right:3vh;
+		margin-right: 3vh;
 		float: right;
 	}
 	img.MobileMenuMobileRotate {
@@ -333,23 +398,23 @@ button.launch_current {
 		transform: rotate(-90deg);
 	}
 	button:focus {
-		outline:0;
+		outline: 0;
 	}
 	.center {
 		padding: 5% 0;
 	}
-	div.MobileHeaderContainer{
+	div.MobileHeaderContainer {
 		display: block;
-		position:relative;
+		position: relative;
 	}
 	.dropdown-content {
 		display: none;
 		background-color: #bfbfbf;
 		min-width: 100%;
 		overflow: auto;
-		box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+		box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 		font-size: 5vh;
-		position:relative;
+		position: relative;
 		vertical-align: middle;
 	}
 	.dropdown-content a {
@@ -362,17 +427,47 @@ button.launch_current {
 		position: relative;
 	}
 	.show {
-		display:block;
+		display: block;
 	}
-	.RemoveButtons{
+	.RemoveButtons {
 		display: none;
 	}
-	.MobileHeader{
+	.MobileHeader {
 		display: none;
+	}
+	.Contact_Us_Text {
+		width: 90%;
+		font: normal normal bold 19px/1.4em 'Open Sans', sans-serif;
+		background-color: #FFFFFF;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		margin-top: .2vh;
+		margin-bottom: .2vh;
+		display: inline-block;
+	}
+	.Contact_Us_Send {
+		width: 30%;
+		font: normal normal bold 19px/1.4em 'Open Sans', sans-serif;
+		background-color: #FFFFFF;
+		-moz-border-radius: 5px;
+		-webkit-border-radius: 5px;
+		border-radius: 5px;
+		margin-top: .2vh;
+		margin-bottom: .2vh;
+		display: block;
+	}
+	iframe.map {
+		margin-left: auto;
+		margin-right: auto;
+		min-height: 50vh;
+		width: 50vh;
+		display: block;
 	}
 	/* Mobile */
 }
-#footer{
+
+#footer {
 	border-top-style: solid;
 	border-width: .2vh;
 	font-size: 1.6vh;
@@ -381,12 +476,13 @@ button.launch_current {
 	clear: left;
 	text-align: center;
 	font-weight: bold;
-	position:fixed;
-	bottom:0px;
-	left:0px;
-	right:0px;
-	margin-bottom:0px;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
 }
+
 a:link {
 	text-decoration: none;
 }
