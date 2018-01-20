@@ -228,6 +228,11 @@ button.launch_current {
 	-webkit-border-radius: 12px;
 	border-radius: 12px;
 }
+.Contact_Us{
+	width:40%;
+	background-color:#CCCCCC;
+}
+
 /* If Mobile Display load this*/
 @media screen and (max-width: 800px) {
 	#left{
@@ -384,7 +389,4 @@ button.launch_current {
 }
 a:link {
 	text-decoration: none;
-}
-.ContactMe{
-	width:40%;
 }
