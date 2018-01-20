@@ -35,24 +35,7 @@
          <link rel="stylesheet" type="text/css" href="jsfiddle.css">
          <link rel="stylesheet" type="text/css" href="Style/globaltemplate.css">
          <link rel="stylesheet" type="text/css" href="https://www.dreamtemplate.com/dreamcodes/social_icons/tsc_social_icons.css" />
-         <!--  <script type="text/javascript">
-            if (screen.width <= 800) {              // Mobile Device
-              $(document).ready(function(){
-                  $("h1").addClass("HeaderMobile");             //Resize Titles
-                  $(".intro").addClass("introMobile");           // Adjust words
-                  $(".HomeImg").addClass("HomeImgMobile");      //Display Home Image Icon
-                  $(".MobileMenu").addClass("MobileMenuMobile");   // Mobile Menu
-                  $(".ButtonHeader").addClass("RemoveButtons");          //Remove Header Buttons
-                 // $document.getElementById('HeaderButtons').className += 'RemoveButtons';
-                 // $(".MobileBanner").addClass("MobileHeaderDisplay");// Display header banner
-                  $("p").removeClass("intro");                        // Adjust words
-                  $(".HomeImg").removeClass("HomeImg"); 
-                  $(".MobileMenu").removeClass("MobileMenu");  
-                  $(".ButtonHeader").removeClass("ButtonHeader");  
-                  
-              });
-            }
-            </script>-->
+
          <script>
             /* When the user clicks on the button, 
             toggle between hiding and showing the dropdown content */
@@ -79,6 +62,10 @@
               }
             }
          </script>
+		 
+
+
+
       </head>
       <body>
          <div class="bg" id="container">
@@ -103,9 +90,9 @@
                <!-- Header Buttons-->
                <header>
                   <div class="ButtonHeader">
-                     <a href="http://naterbug25.github.io/Lance/Home" target="" </a><button class="launch_current" style="color:#000000;">Home</button></a>
+                     <a href="http://naterbug25.github.io/Lance/Home" target="" </a><button class="launch" style="color:#000000;">Home</button></a>
                      <a href="http://naterbug25.github.io/Lance/About_Us" target=""</a> <button class="launch" style="color:#000000;">About Us</button></a>
-                     <a href="http://naterbug25.github.io/Lance/Recruitment" target="" </a> <button class="launch" style="color:#000000;">Recruitment</button></a>
+                     <a href="http://naterbug25.github.io/Lance/Recruitment" target="" </a> <button class="launch_current" style="color:#000000;">Recruitment</button></a>
                      <a href="http://naterbug25.github.io/Lance/Alumni" target="" </a> <button  class="launch" style="color:#000000;">Alumni</button></a>
                      <a href="http://naterbug25.github.io/Lance/Contact_Us" target="" </a> <button class="launch" style="color:#000000;">Contact Us</button></a>
                      <br>
@@ -114,10 +101,10 @@
             </div>
             <div  id="left"> </div>
             <!-- Empty Space -->
-            <div id="right">
+            <div id="right" class="Right_Content"  >
                <!-- Paypal & Twitter -->
                <!-- Paypal -->
-               <div class="Paypal ">
+               <div class="Paypal_Not_Home">
                   <h1>Alumni Dues</h1>
                   <p>Pay your Annual Alumni Dues online via PayPal. It's only $50 and it's needed!</p>
                   <div class="separator" style="clear: both; text-align: center;">
@@ -129,7 +116,7 @@
                      </form>
                   </div>
                </div>
-               <div class="Paypal">
+               <div class="Paypal_Not_Home">
                   <h1>Alumni Support</h1>
                   <p>In addition to your Alumni Dues, show your support by making a donation of any amount you choose by clicking below!</p>
                   <div class="separator" style="clear: both; text-align: center;">
@@ -149,26 +136,12 @@
                      >Tweets by SigmaTauGamma</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
                </div>
             </div>
-            <!-- Image Carousel -->
-            <div id ="center" >
-               <div class="w3-content w3-display-container Scroll_Img">
-                  <img class="mySlides" src="http://naterbug25.github.io/Lance/Images/ValpoHouse_2_1.PNG" style="max-width:100%">
-                  <img class="mySlides Mobile_Img" src="http://naterbug25.github.io/Lance/Images/People_1.PNG" style="width:100%">				
-                  <img class="mySlides Mobile_Img" src="http://naterbug25.github.io/Lance/Images/801Union_1.jpg" style="width:100%">
-				  <img class="mySlides Mobile_Img" src="http://naterbug25.github.io/Lance/Images/ValpoHouse_3.png" style="width:100%">
-				  <img class="mySlides Mobile_Img" src="http://naterbug25.github.io/Lance/Images/801Union_2.JPG" style="width:100%">
-                  <button class="w3-button w3-black w3-display-left Mobile_Img" onclick="plusDivs(-1)">&#10094;</button>
-                  <button class="w3-button w3-black w3-display-right Mobile_Img" onclick="plusDivs(1)">&#10095;</button>
-               </div>
+
                <!-- Linked to google drive docs -->
-               <div>
-                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSF0VAzVsB13xC8nG0UhBuveZWVcHqYQSep9XDN22Z-Kk--rKqh6FHq6qQLrhnm-JXqDIQX7iWjnueA/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>	
-                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vRmJbH3VG55Ath2P4JCYwhdJ7vyNbNQiPvhnrM1AElqaQglrqqgJKqk5YKlBajLlp8sXWrSQOrfc_vt/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSIP8zBgzG-SnT8rmAiB9dHGHih6nkXEq3BNtevK46N9X4YosaAIiQnSbPGpLQ1Mw7HNANqSlX6OHLn/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vREkYewH_Q0dcv2d0ebP3SSNTqdLtBlTb812bMzFGBkO6CD2ixTwDiDT_K_VduoYBLdgJt13nAk9IFU/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
-                  <iframe class ="home_page" src="https://docs.google.com/document/d/e/2PACX-1vSusku5xfo6h_akfEPRiYpk5CYuo4poIY2zE_cVw5L0f-D2StWl1Bz5-G5Ak2sEi-jMCB_YafBcMqim/pub?embedded=true" scrolling="no" allowtransparency="true"></iframe>
+               <div id ="center" class="Center_Content" >
+                  <iframe class ="doc_page" src="https://docs.google.com/document/d/e/2PACX-1vSBQdBl7Y46g1kd5rZE-KmvcexPfA7bj2tv0_1Hh1MSnQP8Pb29bmSn517mnxO1GfWxbh6yECD2SfOs/pub?embedded=true" allowtransparency="true"></iframe>
                </div>
-            </div>
+           
             <br><br>
          </div>
          <!-- Footer -->
@@ -198,5 +171,6 @@
               x[slideIndex-1].style.display = "block";  
             }
          </script>
+
       </body>
    </html>
