@@ -187,7 +187,7 @@ iframe.doc_page {
 	display: block;
 	overflow: hidden;
 	width: 90%;
-	height: -webkit-fill-available;
+	height: 100vh;
 	margin-left: 5%;
 	margin-right: 5%;
 	margin-top: 1vh;
@@ -404,7 +404,6 @@ iframe.map {
 		margin-top: 2vh;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: 1vh;
 		color: #f2f2f2;
 		float: left;
 		display: inline-block;
